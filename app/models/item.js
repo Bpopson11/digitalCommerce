@@ -5,5 +5,6 @@ export default DS.Model.extend({
   description: DS.attr(),
   price: DS.attr(),
   size: DS.attr(),
-  image: DS.attr()
+  image: DS.attr(),
+  category: DS.belongsTo('category', {async: true})
 });

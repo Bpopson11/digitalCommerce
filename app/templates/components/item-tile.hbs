@@ -2,9 +2,10 @@
     <img class="pictures" src={{item.image}} alt={{item.name}}>
     <div class="caption">
       <h3>{{item.name}}</h3>
-      <ul>
-        <li>${{item.price}}
-        <button {{action 'addToCart' item}}>Add to Cart</button></li>
-      </ul>
+
     </div>
+    <!-- <div class="panel-footer">
+      <button {{action 'addToCart' item}}>Add to Cart</button>
+        {{item-detail item=item}}
+      </div> -->
   </div>
