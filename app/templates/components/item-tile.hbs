@@ -1,7 +1,7 @@
   <div class="thumbnail">
     <img class="pictures" src={{item.image}} alt={{item.name}}>
     <div class="caption">
-      <h3>{{item.name}}</h3>
+      <h3 {{action 'openModal' 'modal-main'}}>{{item.name}}</h3>
       <ul>
         <li>{{item.price}}</li>
       </ul>
