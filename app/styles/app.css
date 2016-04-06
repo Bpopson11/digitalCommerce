@@ -26,6 +26,11 @@ body {
   height: 33px;
   background-color: #e4f0f0;
 }
+.cartIcon {
+  margin-left: 10px;
+  background-color: #c9d3d5;
+  color: #5c6d65;
+}
 
 /*item-tile*/
 .thumbnail {
