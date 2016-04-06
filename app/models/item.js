@@ -4,5 +4,6 @@ export default DS.Model.extend({
   name: DS.attr(),
   description: DS.attr(),
   price: DS.attr(),
-  quantity: DS.attr()
+  size: DS.attr(),
+  image: DS.attr()
 });
