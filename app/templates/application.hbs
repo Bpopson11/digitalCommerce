@@ -1,3 +1,17 @@
-<h2 id="title">We Sell Spiky Things!!</h2>
+<nav class="navbar navbar-default">
+  <div class="container=fluid">
+    <ul class="navbar-left nav navbar-nav">
+      <li id="title">Chicks and Pricks</li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li>{{#link-to 'about'class="links"}}Succulents{{/link-to}}</li>
+      <li>{{#link-to 'index' class="links"}}Cacti{{/link-to}}</li>
+      <li>{{#link-to 'contact' class="links"}}House Plants{{/link-to}}</li>
+      <li>{{#link-to 'create' class="links lastOne"}}Terrariums{{/link-to}}</li>
+    </ul>
+    </div>
+</nav>
 
-{{outlet}}
+<div class="container">
+    {{outlet}}
+</div>
