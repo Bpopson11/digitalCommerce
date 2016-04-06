@@ -1,20 +1,34 @@
+/*application*/
 #title {
   font-family: 'Kranky', cursive;
   font-size: 30px;
 }
-
+.jumbotron {
+  background-image: url(/assets/images/greenhouse.jpg);
+  height:  500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0px;
+}
 body {
   font-family: 'Walter Turncoat', cursive;
 }
-
-.thumbnail {
-  float: left;
-  height: 400px;
-  width: 350px;
-  margin: 10px;
+.catLinks {
+  margin-right: 10px;
+}
+.navbar-default{
+  height: 33px;
 }
 
-.thumbnail .pictures {
+/*item-tile*/
+.thumbnail {
+  float: left;
   height: 300px;
+  width: 250px;
+  margin: 10px;
+}
+.thumbnail .pictures {
+  height: 200px;
   width: 100%;
 }
