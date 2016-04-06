@@ -1,25 +1,25 @@
 { "items": [{
   "name": "Bromeliad",
   "description": "It's pink!! Needs lots of sunlight",
-  "price": "$15",
+  "price": 15,
   "size": "6 inch pot",
   "image": "/assets/images/bromeliad.jpg"
 }, {
   "name": "Aloe Vera",
   "description": "Good for sunburns",
-  "price": "$17",
+  "price": 17,
   "size": "8 inch pot",
   "image": "/assets/images/aloe_vera.jpg"
 }, {
   "name": "Zebra Aloe",
   "description": "It's like aloe, but stripey!",
-  "price": "$5",
+  "price": 5,
   "size": "3 inch pot",
   "image": "/assets/images/zebra_aloe.jpg"
 }, {
   "name": "Echeveria",
   "description": "I'm not personally convinced this is an actual plant.",
-  "price": "$5",
+  "price": 5,
   "size": "3 inch pot",
   "image": "/assets/images/echeveria.jpg"
   }]
