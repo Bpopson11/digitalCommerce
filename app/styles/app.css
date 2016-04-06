@@ -6,3 +6,15 @@
 body {
   font-family: 'Walter Turncoat', cursive;
 }
+
+.thumbnail {
+  float: left;
+  height: 400px;
+  width: 350px;
+  margin: 10px;
+}
+
+.thumbnail .pictures {
+  height: 300px;
+  width: 100%;
+}
