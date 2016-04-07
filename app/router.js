@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('admin');
   this.route('store');
   this.route('cart');
+  this.route('category', {path: '/category/:category_id'});
 });
 
 export default Router;

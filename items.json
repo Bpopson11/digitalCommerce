@@ -4,34 +4,43 @@
   "price": 15,
   "size": "6 inch pot",
   "image": "/assets/images/bromeliad.jpg",
-  "category": "House Plant"
+  "category": 2
 }, {
   "name": "Aloe Vera",
   "description": "Good for sunburns",
   "price": 17,
   "size": "8 inch pot",
   "image": "/assets/images/aloe_vera.jpg",
-  "category": "Succulent"
+  "category": 0
 }, {
   "name": "Zebra Aloe",
   "description": "It's like aloe, but stripey!",
   "price": 5,
   "size": "3 inch pot",
   "image": "/assets/images/zebra_aloe.jpg",
-  "category": "Succulent"
+  "category": 0
 }, {
   "name": "Echeveria",
   "description": "I'm not personally convinced this is an actual plant.",
   "price": 5,
   "size": "3 inch pot",
   "image": "/assets/images/echeveria.jpg",
-  "category": "Succulent"
+  "category": 0
   }, {
     "name": "Hanging Terrarium",
     "description": "Super cute and easy to hang. Just make sure to secure carefully!.",
     "price": 10,
     "size": "6 inches tall",
     "image": "/assets/images/hangingTerrarium.jpg",
-    "category": "Terrarium"
+    "category": 3
+  }],
+  "categories": [{
+    "type": "Succulent"
+  },{
+    "type": "Cacti"
+  },{
+    "type": "House Plant"
+  },{
+    "type": "Terrarium"
   }]
 }
